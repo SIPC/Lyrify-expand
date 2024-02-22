@@ -6,7 +6,7 @@
 ### Docker 部署
 
 ```docker
-docker run -d --name lyrify-expand -p 3001:3000 sipcink/lyrify-expand
+docker run -d --restart=always --name lyrify-expand -p 3001:3000 sipcink/lyrify-expand
 ```
 
 ### 使用
