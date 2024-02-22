@@ -10,6 +10,7 @@ docker run -d --restart=always --name lyrify-expand -p 3001:3000 sipcink/lyrify-
 ```
 
 ### 使用
+支持模型: youdao, deeplx, microsoft, google, transmart
 ```shell
 curl --location -g --request POST 'http://localhost:3000/{{model}}/translate' \
 --header 'Content-Type: application/json' \
